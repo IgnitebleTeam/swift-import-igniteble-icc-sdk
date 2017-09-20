@@ -1,6 +1,0 @@
-framework module Pods_swift_import_ignitebleicc_sdkTests {
-  umbrella header "Pods-swift-import-ignitebleicc-sdkTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
