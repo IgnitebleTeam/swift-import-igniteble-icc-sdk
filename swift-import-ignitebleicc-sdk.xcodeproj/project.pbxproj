@@ -249,8 +249,7 @@
 				TargetAttributes = {
 					0BE62AC81F69E645008437AC = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = NR834GYH6B;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -625,7 +624,7 @@
 			baseConfigurationReference = 5A1E8EA566BA61B29D190C08 /* Pods-swift-import-ignitebleicc-sdk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NR834GYH6B;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/IgnitebleIccSDK",
@@ -634,6 +633,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.lure.swift-import-ignitebleicc-sdk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Objective-CBridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -644,7 +644,7 @@
 			baseConfigurationReference = E6553D6DA90EC2A28F6BD4FA /* Pods-swift-import-ignitebleicc-sdk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NR834GYH6B;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/IgnitebleIccSDK",
@@ -653,6 +653,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.lure.swift-import-ignitebleicc-sdk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Objective-CBridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
