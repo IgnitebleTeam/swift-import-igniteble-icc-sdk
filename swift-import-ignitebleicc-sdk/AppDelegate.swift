@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let instanceOfNotificationManager: NotificationsManager = NotificationsManager.sharedNotificationclient()
         instanceOfNotificationManager.companyId = "IGNITEBLE-COMPANY-ID"
-   
+        instanceOfNotificationManager.setYourMemberId("{memberid}");
         return true
     }
 
